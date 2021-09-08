@@ -17,7 +17,7 @@ body {
   background: #252525;
   padding: 4px;
   max-width: 260px;
-  font-family: "Tahoma";
+  font-family: "Tahoma", sans-serif;
 }
 
 .item {
