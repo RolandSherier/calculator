@@ -14,14 +14,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 4px;
-  background: #575151;
+  background: #252525;
   padding: 4px;
   max-width: 260px;
   font-family: "Tahoma";
 }
 
 .item {
-  background: rgb(49, 49, 49);
+  background: #595d5f;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -33,6 +33,10 @@ body {
 
 .item--color--orange {
   background: #c07c24;
+}
+
+.item--color--gray {
+  background: #414647;
 }
 
 input {
@@ -52,7 +56,6 @@ input {
 
 .clean {
   grid-column: 1/3;
-  background: rgb(65, 64, 64);
 }
 
 .back {
